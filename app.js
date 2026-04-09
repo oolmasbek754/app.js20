@@ -14,6 +14,7 @@ console.log(isNaN("abs")); // true
 console.log(NaN === NaN); // false
 
 // isFinite 
+
 console.log(isFinite("abs")); // false
 console.log(isFinite(10)); // true
 console.log(isFinite(Infinity)); // false
